@@ -1,15 +1,19 @@
-# w7d4: [NewsReader][description]
+# NewsReader
 
-* [Live Demo](http://aa-newsreader.herokuapp.com/)
+An RSS feed reading app. Features: 
+
+* User authentication
+* View feeds' entries
+* Refresh feeds to get latest entries
+* Add/remove feeds
+* Add feeds to favorites
 
 To run locally:
 
-* `bundle install`
-* `bundle exec rake db:create db:migrate db:seed`
+* `bundle`
+* `be rake db:setup`
 
 Three feeds with their entries will be created upon running `rake
 db:seed`.
 
 Good luck. Have fun!
-
-[description]: https://github.com/appacademy/backbone-curriculum/blob/master/projects/w7d4-news-reader.md
